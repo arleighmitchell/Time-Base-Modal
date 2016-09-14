@@ -13,24 +13,47 @@
 <body>
 <header>
 	
-<h1>The Vintage Gal</h1>
+  <h1>The Vintage Gal</h1>
 
-<button id="myBtn" class="btn btn-secondary" onclick="setTimeout(myFunction, 3000)" >Sign In</button>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">TVG</a>
+      </div>
+      
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="https://accounts.google.com/ServiceLogin?sacu=1&scc=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&osid=1&service=mail&ss=1&ltmpl=defaul&rm=false#identifier">Contact Us</a></li>
+          <li><a href="https://www.instagram.com/arleighann/">Instagram</a><li>
+          <li><a href="#">Story</a></li>
+          <li><a href="https://www.google.com/maps/place/500+Yale+Ave+N,+Seattle,+WA+98109/@47.6234316,-122.3322725,17z/data=!3m1!4b1!4m5!3m4!1s0x54901530fb19794f:0x16d37dea4a624e97!8m2!3d47.623428!4d-122.3300838">Locations</a></li>
+        </ul>
+       
+        <ul class="nav navbar-nav navbar-right">
+          <li id="myBtn" class="signin" onclick="setTimeout(myFunction, 3000)"><a href="#">Sign In</a></li>
+        </ul>
+      
+      </div>
+    
+    </div>
+
+  </nav>
 
 </header>
 
 <div id="myModal" class="modal">
 	<div class="modal-content">
 		<span id="mySpan" class="close">Close</span>
-		<form>
+		<form >
 			<label for="username">Username</label>
 			<input type="text" name="username">
 			<label for="password">Password</label>
 			<input type="text" name="password">
-			<input type="submit" name="submit">
+			<input type="submit" name="submit" class="btn btn-secondary">
 		</form>
 		
 	</div>
+
 </div>
 
 <script type="text/javascript" src="assets/js/index.js"></script>
