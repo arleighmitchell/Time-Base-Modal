@@ -15,16 +15,20 @@
 	
 <h1>The Vintage Gal</h1>
 
-</header>
+<button id="myBtn" class="btn btn-secondary" onclick="setTimeout(myFunction, 3000)" >Sign In</button>
 
-<button id="myBtn">Open Modal</button>
+</header>
 
 <div id="myModal" class="modal">
 	<div class="modal-content">
 		<span id="mySpan" class="close">Close</span>
-		<p>
-			Modal Conent
-		</p>
+		<form>
+			<label for="username">Username</label>
+			<input type="text" name="username">
+			<label for="password">Password</label>
+			<input type="text" name="password">
+			<input type="submit" name="submit">
+		</form>
 		
 	</div>
 </div>

@@ -4,7 +4,7 @@ var btn = document.getElementById('myBtn');
 
 var span = document.getElementById('mySpan');
 
-btn.onclick = function() {
+function myFunction() {
 	modal.style.display = "block";
 }
 
