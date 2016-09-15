@@ -1,6 +1,6 @@
 body {
     font-family: courier;
-    background-color: teal;
+    background-color: rosybrown;
     background-image: url(../images/one.jpg);
     background-size: 100%;
 
@@ -11,9 +11,28 @@ body {
     font-size: 18px;
 }
 
+.content{
+    margin: 75px 100px 50px 100px;
+    font-weight: normal;
+    background: rgba(0,0,0,0.3);
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+}
+
+.content1{
+    margin: 75px 100px 50px 100px;
+    font-weight: normal;
+    background: rgba(0,0,0,0.3);
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+}
+
 header {
     text-align: center;
     margin-top: 50px;
+    font-weight: bold;
 }
 
 h1 {
@@ -32,9 +51,55 @@ h1 {
 }
 
 .modal-content {
-    background-color: indianred;
+    background-color: rosybrown;
     margin: 16% auto;
     padding: 20px;
-    border: 3px outset indianred;
+    border: 3px outset rosybrown;
     width: 80%;
+}
+
+div.one {
+    width: 300px;
+    height: 300px;
+    display: block;
+    background-color: rosybrown;
+    float: left;
+    margin: 50px 50px 75px 120px;
+}
+
+img.one{
+    width: 300px;
+    height: 300px;
+}
+
+.signin{
+    font-weight: bolder;
+}
+
+div.three {
+    width: 300px;
+    height: 300px;
+    display: block;
+    background-color: rosybrown;
+    float: left;
+    margin: 50px 120px 75px 50px;
+}
+
+img.three {
+    width: 300px;
+    height: 300px;
+}
+
+div.two {
+    width: 300px;
+    height: 300px;
+    display: block;
+    background-color: rosybrown;
+    float: left;
+    margin: 50px 50px 75px 50px;
+}
+
+img.two {
+    width: 300px;
+    height: 300px;
 }
